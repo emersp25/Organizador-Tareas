@@ -43,6 +43,7 @@ public class FrmListadoActividades extends javax.swing.JFrame {
         jButton4 = new javax.swing.JButton();
         jButton6 = new javax.swing.JButton();
         jLabel2 = new javax.swing.JLabel();
+        jLabel3 = new javax.swing.JLabel();
         jLabel4 = new javax.swing.JLabel();
         jLabel5 = new javax.swing.JLabel();
         jSeparator1 = new javax.swing.JSeparator();
@@ -69,7 +70,7 @@ public class FrmListadoActividades extends javax.swing.JFrame {
                 jButton3ActionPerformed(evt);
             }
         });
-        FondoPanel.add(jButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 300, 110, 40));
+        FondoPanel.add(jButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 310, 110, 40));
 
         jButton1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Botones/vista_prev_norm.png"))); // NOI18N
         jButton1.setContentAreaFilled(false);
@@ -81,7 +82,7 @@ public class FrmListadoActividades extends javax.swing.JFrame {
                 jButton1ActionPerformed(evt);
             }
         });
-        FondoPanel.add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(440, 300, 110, 40));
+        FondoPanel.add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(400, 310, 110, 40));
 
         jButton2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Botones/editar_norm.png"))); // NOI18N
         jButton2.setContentAreaFilled(false);
@@ -93,13 +94,13 @@ public class FrmListadoActividades extends javax.swing.JFrame {
                 jButton2ActionPerformed(evt);
             }
         });
-        FondoPanel.add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 300, -1, 40));
+        FondoPanel.add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 310, -1, 40));
 
         txtNombre.setFont(new java.awt.Font("Dialog", 0, 14)); // NOI18N
         txtNombre.setForeground(new java.awt.Color(0, 0, 0));
         txtNombre.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         txtNombre.setText("Nombre de la Lista Actividades");
-        FondoPanel.add(txtNombre, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 150, 240, 40));
+        FondoPanel.add(txtNombre, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 140, 240, 40));
 
         jButton5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Botones/add_norm.png"))); // NOI18N
         jButton5.setContentAreaFilled(false);
@@ -111,7 +112,7 @@ public class FrmListadoActividades extends javax.swing.JFrame {
                 jButton5ActionPerformed(evt);
             }
         });
-        FondoPanel.add(jButton5, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 230, -1, 30));
+        FondoPanel.add(jButton5, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 240, -1, 30));
 
         jButton4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Botones/add_norm.png"))); // NOI18N
         jButton4.setContentAreaFilled(false);
@@ -123,7 +124,7 @@ public class FrmListadoActividades extends javax.swing.JFrame {
                 jButton4ActionPerformed(evt);
             }
         });
-        FondoPanel.add(jButton4, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 230, 40, 30));
+        FondoPanel.add(jButton4, new org.netbeans.lib.awtextra.AbsoluteConstraints(470, 240, 40, 30));
 
         jButton6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Botones/add_norm.png"))); // NOI18N
         jButton6.setContentAreaFilled(false);
@@ -135,22 +136,27 @@ public class FrmListadoActividades extends javax.swing.JFrame {
                 jButton6ActionPerformed(evt);
             }
         });
-        FondoPanel.add(jButton6, new org.netbeans.lib.awtextra.AbsoluteConstraints(570, 230, 30, 30));
+        FondoPanel.add(jButton6, new org.netbeans.lib.awtextra.AbsoluteConstraints(580, 320, 30, 30));
 
         jLabel2.setFont(new java.awt.Font("Roboto Light", 0, 14)); // NOI18N
         jLabel2.setForeground(new java.awt.Color(0, 0, 0));
         jLabel2.setText("DETALLE TAREA");
-        FondoPanel.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(530, 210, -1, -1));
+        FondoPanel.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(540, 290, -1, 40));
+
+        jLabel3.setFont(new java.awt.Font("Roboto Light", 0, 14)); // NOI18N
+        jLabel3.setForeground(new java.awt.Color(0, 0, 0));
+        jLabel3.setText("VOLVER A");
+        FondoPanel.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(560, 280, -1, 20));
 
         jLabel4.setFont(new java.awt.Font("Roboto Light", 0, 14)); // NOI18N
         jLabel4.setForeground(new java.awt.Color(0, 0, 0));
         jLabel4.setText("AGREGAR ACTIVIDADES");
-        FondoPanel.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 210, -1, 20));
+        FondoPanel.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(410, 210, -1, 20));
 
         jLabel5.setFont(new java.awt.Font("Roboto Light", 0, 14)); // NOI18N
         jLabel5.setForeground(new java.awt.Color(0, 0, 0));
         jLabel5.setText("LISTADO DE ACTIVIDADES");
-        FondoPanel.add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 210, 170, 20));
+        FondoPanel.add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 210, 170, 20));
         FondoPanel.add(jSeparator1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 200, 700, 20));
 
         FondoTitulo.setBackground(new java.awt.Color(0, 0, 0));
@@ -295,6 +301,7 @@ try {
     private javax.swing.JButton jButton6;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
+    private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel5;
     private javax.swing.JMenuItem jMenuItem1;

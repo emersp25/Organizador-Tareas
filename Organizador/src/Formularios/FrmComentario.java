@@ -98,7 +98,7 @@ public class FrmComentario extends javax.swing.JFrame {
         Titulo.setFont(new java.awt.Font("Roboto Thin", 0, 30)); // NOI18N
         Titulo.setForeground(new java.awt.Color(255, 255, 255));
         Titulo.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        Titulo.setText("OPCIONES COMENTARIO");
+        Titulo.setText("DETALLES COMENTARIO");
 
         javax.swing.GroupLayout FondoTituloLayout = new javax.swing.GroupLayout(FondoTitulo);
         FondoTitulo.setLayout(FondoTituloLayout);

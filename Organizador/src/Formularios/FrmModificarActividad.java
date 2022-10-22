@@ -76,7 +76,7 @@ public class FrmModificarActividad extends javax.swing.JFrame {
         jLabel2.setForeground(new java.awt.Color(0, 0, 0));
         jLabel2.setText("NUEVO NOMBRE");
         FondoPanel.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 160, 120, 30));
-        FondoPanel.add(txtNuevoNombre, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 160, 284, 20));
+        FondoPanel.add(txtNuevoNombre, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 160, 284, 30));
 
         jButton1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Botones/vista_prev_norm.png"))); // NOI18N
         jButton1.setBorderPainted(false);
@@ -102,7 +102,9 @@ public class FrmModificarActividad extends javax.swing.JFrame {
         FondoTitulo.setLayout(FondoTituloLayout);
         FondoTituloLayout.setHorizontalGroup(
             FondoTituloLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jLabel4, javax.swing.GroupLayout.DEFAULT_SIZE, 560, Short.MAX_VALUE)
+            .addGroup(FondoTituloLayout.createSequentialGroup()
+                .addComponent(jLabel4, javax.swing.GroupLayout.PREFERRED_SIZE, 600, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(0, 0, Short.MAX_VALUE))
         );
         FondoTituloLayout.setVerticalGroup(
             FondoTituloLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -112,10 +114,10 @@ public class FrmModificarActividad extends javax.swing.JFrame {
                 .addContainerGap())
         );
 
-        FondoPanel.add(FondoTitulo, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 20, 560, 60));
+        FondoPanel.add(FondoTitulo, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 20, 600, 60));
 
         fondo.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/24.jpg"))); // NOI18N
-        FondoPanel.add(fondo, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 560, 400));
+        FondoPanel.add(fondo, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 600, 400));
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);

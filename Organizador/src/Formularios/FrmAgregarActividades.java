@@ -45,7 +45,7 @@ public class FrmAgregarActividades extends javax.swing.JFrame {
         jLabel2.setForeground(new java.awt.Color(0, 0, 0));
         jLabel2.setText("NOMBRE");
         FondoPanel.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 140, 80, 20));
-        FondoPanel.add(txtNombre, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 140, 218, 20));
+        FondoPanel.add(txtNombre, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 140, 218, 30));
 
         jLabel3.setFont(new java.awt.Font("Roboto Black", 0, 14)); // NOI18N
         jLabel3.setForeground(new java.awt.Color(0, 0, 0));

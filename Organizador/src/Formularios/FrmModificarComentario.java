@@ -84,7 +84,7 @@ public class FrmModificarComentario extends javax.swing.JFrame {
         jLabel4.setFont(new java.awt.Font("Roboto Thin", 0, 36)); // NOI18N
         jLabel4.setForeground(new java.awt.Color(255, 255, 255));
         jLabel4.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel4.setText("MODIFICAR ACTIVIDAD");
+        jLabel4.setText("EDITAR COMENTARIO");
 
         javax.swing.GroupLayout FondoTituloLayout = new javax.swing.GroupLayout(FondoTitulo);
         FondoTitulo.setLayout(FondoTituloLayout);
